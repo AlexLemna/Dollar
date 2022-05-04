@@ -1,13 +1,12 @@
 # Dollar
 
-A startpage looking like a terminal !
+A startpage that looks like a terminal!
 
 ![](preview.png)
 
-# How to add commands ?
+## How to add commands?
 
-The commands are located in /src/js/commands.js\
-The wiki contains a section on how to add commands.
+The commands are located in `src/js/commands.js`. The wiki contains a section on how to add commands.
 
 ```js
 // Search something on google, if no arguments are provided => www.google.com
@@ -22,7 +21,6 @@ function google(args) {
 }
 
 // Display time
-
 time = clock;
 function clock(args) {
     var today = new Date();
@@ -35,10 +33,10 @@ function clear(args) {
     document.getElementById('wrapper').innerHTML = "";
 }
 ```
-# What about theming ?
 
-Colors can be changed in /src/style/terminal.css\
-The wiki contains a section on how to change the colors.
+## What about theming?
+
+Colors can be changed in `src/style/terminal.css`. The wiki contains a section on how to change the colors.
 
 ```css
 :root {
